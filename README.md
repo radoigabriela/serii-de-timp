@@ -17,9 +17,9 @@ Rezultatele au fost obținute în Excel și interpretate în documentul Word.
 Pe baza aceleiași serii, a fost construit un model ARIMA în RStudio. Au fost parcurse următoarele etape:
 - conversia vectorului în obiect ts cu frecvență lunară  
 - analiza grafică și statistică a datelor  
-- testarea staționarității cu `adf.test`  
+- testarea staționarității cu adf.test  
 - diferențierea seriei și retestare  
-- estimarea modelului cu `auto.arima()`  
+- estimarea modelului cu auto.arima()  
 - prognoză pentru 12 luni  
 - verificarea reziduurilor și a autocorelației  
 
